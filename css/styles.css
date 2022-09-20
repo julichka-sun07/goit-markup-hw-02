@@ -10,7 +10,6 @@ body {
     font-family: "Roboto", sans-serif; 
     font-size: normal;
 
-    /--header--/
 }
 
 .link {
@@ -53,7 +52,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .nav-link:hover, .nav-link:focus {
-    color: red;
+    color: #000000;
 }
 .nav-link .current { 
     color: #000000;
@@ -81,7 +80,6 @@ letter-spacing: 0.02em;
 }
 .logo-white { 
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -91,22 +89,28 @@ color: #FFFFFF ;
 
 h3.prioritet {
     color: var(--title-text-color);
-    font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
 letter-spacing: 0.03em;
-text-transform: uppercase;
   }
 
 
 .prioritet-text {
     color: var(--text-color);
-    font-size: 14px;
-line-height: 1.71;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
 letter-spacing: 0.03em;
+
   }
 .section-titel {
     color: var(--title-text-color);
+ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -114,18 +118,23 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.fon-section {
-    background-color: #2F303A;}
 
-.main-titele {
-color: #FFFFFF;
+.fon-section {
+    background-color: #2F303A;
+}
+
+.main-titele {   
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: #FFFFFF;
 }
+
  .fon-prioritet ,  .fon-work { 
     background-color: var(--fon-prioritet-color); 
   }
@@ -133,18 +142,11 @@ text-transform: uppercase;
   .fon-contack {
     background-color: var(--fon-contact-color);
   }
-.logo {
-    color: #FFFFFF ;
-    font-family: 'Roboto';
-   font-size: 14px;
-line-height: 1.71px;
-letter-spacing: 0.03em;
-}
 
 .contack {
         font-family: 'Roboto';
     font-size: 14px;
-line-height: 1.71px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -152,40 +154,50 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--acsent-color);
 }
 
+.logo {
+    font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
 .button-osnovna {
    background-color: var(--acsent-color);
-   font-weight: 700;
+   font-family: 'Roboto';
+font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: #FFFFFF;  
 cursor: pointer;
     } 
 
 .button {
     color: var(--title-text-color);
     background-color: var(--fon-komanda-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em; 
-cursor: pointer;
-}
-
-.button-all {
-        background-color: var(--acsent-color);
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+cursor: pointer;
+}
+
+.button-all {
+        background-color: var(--acsent-color);
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;      
+        text-align: center;
+        letter-spacing: 0.03em;  
+        color: #FFFFFF;
+        cursor: pointer;
 }
 
 .prioritet-titel {
