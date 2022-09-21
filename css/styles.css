@@ -89,18 +89,32 @@ color: #FFFFFF ;
 
 h3.prioritet {
     color: var(--title-text-color);
-    font-family: 'Roboto';
-font-weight: 500;
+   font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
   }
 
+.prioritet-clas {
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.prioritet-info {
+    color: var(--text-color);
+   font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}  
+
 
 .prioritet-text {
     color: var(--text-color);
-    font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
@@ -110,9 +124,7 @@ letter-spacing: 0.03em;
   }
 .section-titel {
     color: var(--title-text-color);
- font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -124,8 +136,6 @@ letter-spacing: 0.03em;
 }
 
 .main-titele {   
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -155,9 +165,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .logo {
-    font-family: 'Roboto';
-font-size: 14px;
-line-height: 1.71px;
+    font-size: 14px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
@@ -202,15 +211,13 @@ cursor: pointer;
 
 .prioritet-titel {
     color: var(--title-text-color);
-    font-family: 'Roboto';
-font-weight: 700;
+   font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
 .prioritet-texts {
-    font-family: 'Roboto';
-font-weight: 400;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
