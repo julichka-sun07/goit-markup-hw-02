@@ -14,6 +14,7 @@ body {
 
 .link {
     text-decoration: none;
+
 }
 .nav-logo {color: #000000;
     font-family: 'Raleway';
@@ -22,17 +23,66 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+
 }
 
 ul {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
 }
 
-
-a.logo, a.contack {
-    font-style: normal;
+.section-two {
+    display: inline;
+    display: flex;
+    gap: 30px;   
 }
 
+.logo, a.contack {
+    font-style: normal;
+}
+h1, h2, h3, p {
+        margin-top: 0px;
+        margin-bottom: 0px;   
+}
+
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+outline: 2px solid tomato ;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.heder-list {
+    display: flex;
+     gap: 50px;
+    align-items: center;
+    margin-left: auto;  
+    }
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    
+}
+.header-container {
+    display: flex;
+    align-items: center;
+
+    }
+
+.page-header {
+    background-color: aquamarine;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    }
 
 .nav-links {
     color: var(--acsent-color);
@@ -42,6 +92,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+margin-right: 93px;
 
 }
 .nav-link { 
@@ -50,6 +101,7 @@ letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+
 }
 .nav-link:hover, .nav-link:focus {
     color: #000000;
@@ -86,6 +138,14 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF ;
 }
+.logo-bottom {
+    margin-bottom: 20px;
+}
+
+.fon-prioritet {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 h3.prioritet {
     color: var(--title-text-color);
@@ -103,6 +163,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-bottom: 10px;
 }
 .prioritet-info {
     color: var(--text-color);
@@ -129,10 +190,16 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
 }
 
 .fon-section {
-    background-color: #2F303A;
+    background-color: #2F303A;   
+}
+
+.section-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-titele {   
@@ -143,14 +210,27 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 30px;
+width: 696px;
+margin: 0px auto;
+margin-bottom: 30px;
 }
 
- .fon-prioritet ,  .fon-work { 
-    background-color: var(--fon-prioritet-color); 
+.fon-work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+ .fon-komanda { 
+    background-color: var(--fon-komanda-color) ;
+    padding-top: 94px; 
+    padding-bottom: 94px;
   }
   
   .fon-contack {
     background-color: var(--fon-contact-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
 .contack {
@@ -183,6 +263,11 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;  
 cursor: pointer;
+border-radius: 4px;
+margin:0 auto;
+min-width: 216px;
+padding: 10px 32px;
+border: 2px solid transparent;
     } 
 
 .button {
@@ -195,6 +280,10 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
+border-radius: 4px;
+min-width: 125px;
+padding: 6px 22px;
+border: 2px solid brown;
 }
 
 .button-all {
@@ -207,6 +296,11 @@ cursor: pointer;
         letter-spacing: 0.03em;  
         color: #FFFFFF;
         cursor: pointer;
+        border-radius: 4px;
+        min-width: 73px;
+        padding: 6px 25px;
+        border: 2px solid var(--acsent-color);
+
 }
 
 .prioritet-titel {
@@ -222,4 +316,42 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color:var(--text-color);
+}
+.srction-foto {
+    display: flex;
+    gap: 30px;
+}
+
+.section-komanda {
+    display: flex;
+    gap: 30px;
+}
+
+.img-foto {
+    width: calc((100% - 90px) /4);
+}
+.container-foto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.foto-stop {
+    width: calc((100% - 60px) /3);
+}
+.container-button {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.komanda-text {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+}
+.text-one {
+    margin-bottom: 10px;
+}
+.menu {
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
